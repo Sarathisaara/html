@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" novalidate
+    autocomplete="off" >
+       <fieldset>
+        <legend>Personal Details</legend>
+        <label for="username">Name</label>
+        <input 
+        type="text" 
+        id="username" 
+        name="userName"
+        required
+        autofocus
+        autocomplete="off"
+        placeholder="Enter name"
+        size="40">
+        <br/>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="xyz23@gmail.com">
+        <br/>
+        <br>
+        <label for="pwd">Password</label>
+        <input type="Password">
+        <br/>
+        <br>
+        <label for="">D.O.B</label>
+        <input type="date">
+        <br>
+        <br>
+        <label for="">Age</label>
+        <input type="number" min="15" max="50" step="2" >
+        <br/>
+        <br>
+        <label for="">College Name</label>
+        <select name="" id="">
+        <optgroup >
+            <option value="">Sona college</option>
+        <option value="">mahendra college</option>
+        <option value="">AVS college</option>
+        <option value="">7Arts college</option>
+        </optgroup>
+        </select>
+        <label for="Contact">Contact</label>
+        <input type="tel" pattern="[0-9]{10, }" placeholder="+91 0000000000"/>
+        <br/>
+        <br>
+        <label for="">Gender</label>
+        Male:<input type="radio" name="Gender">
+        Female:<input type="radio" name="Gender">
+        Others:<input type="radio" name="Gender">
+        <br/>
+        <br>
+        <label for="">Upload Resume</label>
+        <input type="file"/>
+        <input type="range" value="8" min="2" max="20" step="2">
+    </fieldset>
+   <fieldset >
+    <legend>Others Details</legend>
+    <label for="degree">Degree</label>
+    <select name="" id="">
+        <optgroup label="BTech">
+            <option value="">CSE</option>
+            <option value="">IT</option>
+            <option value="">CIVIL</option>
+            <option value="">EEE</option>
+            <option value="">MECH</option>
+            <option value="">ECE</option>
+           </optgroup>
+           <optgroup label="BSC"> 
+               <option value="">CS</option>
+               <option value="">Mathematics</option>
+               <option value="">Physics</option>
+           </optgroup>
+       </select> 
+       <br/>
+       <br>
+       <label for="Skills">Skills</label>
+       HTML:<input type="checkbox" name="Skills1" value="HTML"/>
+       JS:<input type="checkbox" name="Skills2" value="JS"/>
+       CSS:<input type="checkbox" name="Skills3" value="CSS"/>
+         <br/>
+         <br>
+         <label for="states">States</label>
+     <input type="text" list="states">
+     <datalist id="states" >    
+        <option value="TamilNadu">TamilNadu</option>
+        <option value="Bombay">Bombay</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Kolkata">Kolkata</option>
+        <option value="Kashmir">Kashmir</option>
+    </datalist>
+     <br>
+     <br>
+     <label for="color">Color</label>
+     <input type="color" name="color" id="color" value="color" />
+     <br/>
+   </fieldset >
+   <fieldset >
+    <legend>sos</legend>
+    <label for="">Feedback:</label>
+    <input  placeholder="give the comment">
+    <input type="time" name="" id="">
+    <br>
+    <label for="meter">Meter</label>
+    <meter min="1" max="100" value="45" id=""></meter>
+     </fieldset>
+   <br>
+   <input type="submit">
+   <input type="reset" value="Reset">
+  
+    </form>
+   
+</body>
+</html>

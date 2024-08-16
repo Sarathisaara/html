@@ -1,0 +1,66 @@
+form
+novalidate
+method as default value (post[secure format] get[get data from database])
+fieldset
+legend
+label for name
+input type required autofocus autocomplete readonly pattern max min  step minlength maxlength default checked placeholder
+optgroup
+option
+what is forms?
+  " HTML "are used to collect input or data from user and send it to a server for further processing
+what are form elemnts ?
+    # Form elemnts are component within an html form that allow user to enter and submit data
+    *<input> tag is used to create the field where user can enter data like text ,num,or password on aweb page
+    *<label> taqg is HTML is used to define the caption or name for an input element it helpd to us user to understand what inform they should enter
+    *<select> tag in html used in create a dropdown menu where user can choose one or more option in list 
+    *<textarea> tag is used to create a large textbox where user can either multiple lines of text, like for writing a comment or msg
+     *<button> tag is used to create a clickable button on a webpage .when a clicked it can perform action like submitting a form or triggering a script 
+     *<fields> tag is used to create group related the element like input fields within A form.it help organizes the form and often includes a caption using tha <legend> tag
+     *<legend> tag in used to provide the title or caption for a <fields> .it help describe the grouped form elemnts are about 
+     *<datalist> tag in used to provide a list of predefined option for an <input>tag.that user type there  can choosen from to option in the list similar to autocomplete suggestions 
+     *<option> tag is used to provide the select option in the drop down list
+     *<optgroup> tag is used in group related <option> element inside a dropdown list
+html input and its types?
+     html <input> is an unparied tag used to accept diff types of input from an user
+     the type of input is specialized by the type attribute which can have varoius values such as text email password and more..
+ "Types"
+    <input type="button">          <input type="password">    
+    <input type="checkbox">        <input type="radio">    
+    <input type="color">           <input type="range">    
+    <input type="data">            <input type="reset">    
+    <input type="datetime-local">  <input type="search">    
+    <input type="email">           <input type="submit">    
+    <input type="file">            <input type="tel">    
+    <input type="hidden">          <input type="text">    
+    <input type="image">           <input type="time">    
+    <input type="month">           <input type="url">    
+    <input type="numbers">         <input type="week">  
+Attribute of  input tag ?
+    html<input> elemnts have several attributes that defines their behaviour and appearance .some common diff
+    type:
+    name:
+    value:
+    placeholder:
+    required:
+    readonly: makes the input fields non editable but still allow it to be submitted
+    disable:disable the input field making it unmodified amd non modify
+    maxlengthminlength: set the max no.of.character allowed in input field
+    min and max: define the  min max values for num,data,and range input
+    pattern:specific the regular expreesion the input value must match for validatio
+    autocomplete:suggest possible input value based on the user past entries
+    autofocus:automatically focuses the input field when the page loads
+    size:specifies the width of the input field in character 
+    multiple:
+Form Attribute?
+    the NOVALIDATE attribute: 
+     the novalidate is a boolean attribute
+     when present it specific that the form data(input) should not be validate when submitted
+    THe autocomplete attribute:
+     it specifi whether a form should have autocomplete on (or)off
+     when autocomplete on the browser automatically complkete values based on values the user has entered before
+   Methods attribute to specific way of sending the data 
+   value->get ,post
+form Validate      
+         
+    
